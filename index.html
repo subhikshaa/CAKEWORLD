@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cake World</title>
+</head>
+<body>
+    <div class="border">
+        <div class="logo">
+            <img src="assets/cake.png" height="60px">
+            <h1>Cake World</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="list1">
+            <h1>Prices</h1>
+            <div>Chocolates-------300</div>
+            <div>Strawberry------100</div>
+            <div>ButterScotch-----200</div>
+            <div>Vennila------250</div>
+            <div>Redvelvet-----350</div>
+        </div>
+        <div class="list">
+            <div id="image"><img src="assets/candle.png" width="50px" height="40px"></div>
+            <div id="layer5"></div>
+            <div id="layer4"></div>
+            <div id="layer3"></div>
+            <div id="layer2"></div>
+            <div id="layer1"></div>
+        </div>
+        <div class="list2">
+            <h1>Bill</h1>
+            <div id="item1"></div>
+            <div id="item2"></div>
+            <div id="item3"></div>
+            <div id="item4"></div>
+            <div id="item5"></div>
+            <div id="total"></div>
+        </div>
+    </div>
+    <div class="border2">
+        <button onclick="render1()">Chocolate</button>
+        <button onclick="render2()">Strawberry</button>
+        <button onclick="render3()">Butterscotch</button>
+        <button onclick="render4()">Vannila</button>
+        <button onclick="render5()">Redvelvet</button>
+        <button onclick="calculate()">BUY</button>
+    </div> 
+    <script src="script.js"></script>  
+</body>
+</html>
